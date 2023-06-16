@@ -1,0 +1,199 @@
+/* Full Page Setup */
+
+.page-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  height: 100vh;
+}
+
+/* Card Component */
+
+.card {
+  display: flex;
+  overflow: hidden;
+  border-radius: 24px;
+  box-shadow: 12px 12px 28px rgba(69, 97, 248, 0.1);
+  margin: 64px;
+}
+
+/* Result */
+
+.result {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-top-right-radius: 24px;
+  border-bottom-right-radius: 24px;
+  flex: 1;
+  padding: 24px;
+  font-family: hanken grotesk;
+  background-image: linear-gradient(hsl(252, 100%, 65%), hsl(241, 81%, 54%));
+}
+
+.result-text {
+  text-align: center;
+  font-size: 12px;
+}
+
+.result-percentage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  background-image: linear-gradient(
+    hsla(256, 72%, 46%, 0.9),
+    hsla(241, 72%, 46%, 0.1)
+  );
+
+  margin-bottom: 18px;
+}
+
+.result-percentage > p {
+  margin: 0;
+}
+
+/* Summary */
+
+.summary {
+  padding: 24px;
+  flex: 1;
+}
+
+.header {
+  margin: 0 0 18px 0;
+  font-family: hanken grotesk;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+/* Summary Cards */
+
+.card-sm {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 4px;
+  margin-bottom: 12px;
+  padding: 8px 10px;
+  font-family: hanken grotesk;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.card-sm:last-of-type {
+  margin-bottom: 24px;
+}
+
+.card-sm > div {
+  display: flex;
+  align-items: center;
+}
+
+.card-sm img {
+  height: 14px;
+  margin-right: 8px;
+}
+
+/* Button */
+
+.btn {
+  width: 100%;
+  border: none;
+  border-radius: 24px;
+  padding: 10px 0;
+  background: rgba(48, 59, 89, 1);
+  color: white;
+}
+
+.btn > span {
+  font-family: hanken grotesk;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.btn:hover {
+  background: linear-gradient(hsl(252, 100%, 65%), hsl(241, 81%, 54%));
+  cursor: pointer;
+}
+
+/* Background Colors */
+
+.card-bg-red {
+  background-color: rgba(254, 246, 246, 1);
+}
+
+.card-bg-yellow {
+  background-color: rgba(254, 250, 242, 1);
+}
+
+.card-bg-green {
+  background-color: rgba(242, 250, 250, 1);
+}
+
+.card-bg-blue {
+  background-color: rgba(243, 243, 253, 1);
+}
+
+/* Font Sizes */
+
+.text-sm {
+  font-size: 12px;
+}
+
+.text-lg {
+  font-size: 20px;
+}
+
+.text-xl {
+  font-size: 44px;
+  font-weight: 700;
+}
+
+/* Font Colors */
+
+.card-text-red {
+  color: rgba(241, 88, 88, 1);
+}
+
+.card-text-yellow {
+  color: rgba(244, 176, 34, 1);
+}
+
+.card-text-green {
+  color: rgba(67, 189, 145, 1);
+}
+
+.card-text-blue {
+  color: rgba(54, 37, 212, 1);
+}
+
+.card-text-gray {
+  color: rgba(128, 130, 155, 1);
+}
+
+.card-text-lightgray {
+  color: rgba(212, 205, 255, 1);
+}
+
+.card-text-white {
+  color: white;
+}
+
+/* Utility Classes */
+
+.border-red {
+  border: 2px solid red;
+}
+
+.border-blue {
+  border: 2px solid blue;
+}
+
+.border-green {
+  border: 2px solid green;
+}
